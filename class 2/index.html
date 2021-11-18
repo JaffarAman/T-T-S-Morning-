@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        
+        <h1>JavaScript Events...</h1>
+
+        <!-- <button   onclick="greet('Jaffar')">GREET</button> -->
+
+    <!-- <a  href="javascript:void(0)"  onclickw="greet()"  >CONSOLE</a> -->
+
+
+        <!-- <button onmouseover="userGreet()" onmouseout="foo()">USER GREET</button> -->
+
+
+        <!-- ///inputs event// -->
+        <!-- <input type="text" onblur="input2()" onfocus="input1()"> -->
+        
+        
+        <!-- <input type="text" onkeydown="inp()"> -->
+        <!-- <input type="text" onchange="inp()"> -->
+
+
+        <!-- <button onclick="add()">ADD</button>
+        <button onclick="sub()">SUB</button>
+        <button onclick="mul()">MUL</button>
+        <button onclick="div()">DIV</button> -->
+
+        
+        <!-- <input type="text" onblur="input2(this)" onfocus="input1( this )"> -->
+
+
+        <!-- <input  type="text"  id="input10" >
+
+
+        <button onclick="input1()">CLICK</button> -->
+
+
+            <!-- //javascript calc/// -->
+
+
+            <section class="mainBox">
+                <div class="inputBOx"></div>
+                <div>
+                    <input type="text" id="input1" placeholder="enter value...">
+                </div>
+                <div>
+                    <table border="1">
+                        <tr>
+                            <td onclick="allClear()">Ac</td>
+                            <td onclick="removeVal()">c</td>
+                            <td onclick="getValue('/')">/</td>
+                            <td onclick="getValue('%')">%</td>
+                        </tr>
+                        <tr>
+                            <td onclick="getValue(9)">9</td>
+                            <td onclick="getValue(8)">8</td>
+                            <td onclick="getValue(7)">7</td>
+                            <td onclick="getValue('+')">+</td>
+                        </tr>
+                        <tr>
+                            <td onclick="getValue(6)">6</td>
+                            <td onclick="getValue(5)">5</td>
+                            <td onclick="getValue(4)">4</td>
+                            <td onclick="getValue('-')">-</td>
+                        </tr>
+                        <tr>
+                            <td onclick="getValue(3)">3</td>
+                            <td onclick="getValue(2)">2</td>
+                            <td onclick="getValue(1)">1</td>
+                            <td onclick="getValue('*')">*</td>
+                        </tr>
+                        <tr>
+                            <td onclick="getValue(0)">0</td>
+                            <td onclick="getValue('.')">.</td>
+                            <td colspan="2" onclick="results()">=</td>
+                            
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+
+</body>
+<script src="app.js"></script>
+</html>

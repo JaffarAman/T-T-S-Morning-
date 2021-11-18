@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.mainBox div{
+    /* border: 1px solid red; */
+    width: 40%;
+}
+.mainBox div>input{
+    width: 100%;
+    padding: 8px;
+}
+
+.mainBox table{
+    width: 100%;
+}
+.mainBox table td{
+    padding: 5px;
+    text-align: center;
+}
