@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.a1{
+    display: none;
+    /* visibility: collapse;
+    position: absolute;
+    top: 0px;
+    opacity: 0 ; */
+    /* transition: all 0.5s ease ; */
+}
+
+.a1Show{
+    display: block;
+    /* visibility: visible; */
+    /* opacity: 1;
+    bottom: 0;
+    transition: all 0.5s ease ; */
+
+}
+/* .q1{
+
+} */
+.quesBox{
+    border: 1px solid red;
+    margin: 10px 0;
+    position: relative;
+    height: 70px;
+
+}
+.formModal{
+    min-width: 70% !important;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: red;
+    /* transform: translate(20px , 50px); */
+}
