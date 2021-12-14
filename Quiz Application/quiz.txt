@@ -1,0 +1,57 @@
+var quesArr = [
+  {
+    num: 1,
+    question: "HTML stand for",
+    options: {
+      a: "Hyper text markup Language",
+      b: "Hyper text programming Language",
+      c: "Hyper text styling Language",
+      d: "Hyper text scripting Language",
+    },
+    correctAns: "Hyper text markup Language",
+  },
+  {
+    num: 2,
+    question: "Which type of JavaScript Languages is",
+    options: {
+      a: "Object-Oriented ",
+      b: "Object-Base",
+      c: "Assembly Languages",
+      d: "high Level",
+    },
+    correctAns: "Object-Base",
+  },
+  {
+    num: 3,
+    question: "The 'function' and  'var' are known as:",
+    options: {
+      a: "Keywords",
+      b: "Data types",
+      c: "Declaration statements",
+      d: "Prototypes",
+    },
+    correctAns: "Declaration statements",
+  },
+  {
+    num: 4,
+    question: "who is the present president of pakistan",
+    options: {
+      a: "Arif Alvi",
+      b: "Imran Khan",
+      c: "Nawaz Sharif",
+      d: "Zardari",
+    },
+    correctAns: "Arif Alvi",
+  },
+  {
+    num: 5,
+    question: "How many prayers in a day:",
+    options: {
+      a: "6",
+      b: "5",
+      c: "3",
+      d: "none",
+    },
+    correctAns: "5",
+  },
+];

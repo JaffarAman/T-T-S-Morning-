@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="startQuiz()">
+
+    <section class="mainBox">
+        
+        <section class="quizBox">
+
+            <div class="header">
+
+                <span>Jaffar Aman</span>
+                <span id="min">15</span>
+                <span id="">:</span>
+                <span id="sec">00</span>
+
+            </div>
+            <div class="quizBody">
+                <div>
+                    <h4 id="question"></h4>
+                </div>
+                <div>
+                    <li class="Quizoption"></li>
+                    <li class="Quizoption"></li>
+                    <li class="Quizoption"></li>
+                    <li class="Quizoption"></li>
+                </div>
+
+
+            </div>
+            <div class="footer">
+                <div>
+                    1/7
+
+                </div>
+                <div>
+                    <button id="nextBtn" onclick="nextQues()">NEXT QUES</button>
+                </div>
+
+
+            </div>
+
+
+
+        </section>
+
+
+        
+        
+    </section>
+    
+    <section id="resultBox" >
+
+        <div>
+            <span>NAME</span>
+            <span>Jaffar</span>
+        </div>
+
+        
+        <div>
+            <span>TOTaL QUES</span>
+            <span id="totalQues"></span>
+        </div>
+        
+        <div>
+            <span>CORRECT</span>
+            <span id="correctAns"></span>
+        </div>
+        
+        <div>
+            <span >WRONG</span>
+            <span id="wrongQues"></span>
+        </div>
+
+    </section>
+
+</body>
+<script src="app.js"></script>
+</html>
